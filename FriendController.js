@@ -1,7 +1,7 @@
 angular.module("app1").controller('FriendController', function($scope){
-    //$scope.sortProp = ;
-    //$scope.sortDirection = 'ascending';
-
+    $scope.sortProp = "name";
+    $scope.sortDirection = "+";
+    //no need to do $scope.sortProp bc we are creating those keys using ng-model
     $scope.test = "Hello World";
 
     $scope.friends = [
